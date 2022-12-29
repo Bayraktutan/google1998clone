@@ -1,0 +1,49 @@
+body {
+    background-color: #fff;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
+p {
+    margin: 0;
+}
+.search {
+    width: 90%;
+    background: rgb(238, 238, 238);
+    margin: auto;
+    text-align: center;
+    border-bottom: solid white;
+}
+.col-container {
+    display: table;
+    width: 90%;
+    margin-left: 5%;
+}
+.first {
+    background: rgb(126,229,218);
+    width: 37%;
+    text-align: center;
+    display: table-cell;
+    border-right: solid white 2px;
+    vertical-align: middle;
+
+}
+.second {
+    background: rgb(112,204,184);
+    text-align: center;
+    display: table-cell;
+    border-right: solid white 2px;
+    vertical-align: middle;
+    font-size: small;
+
+}
+.third {
+    background: rgb(98,179,170);
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+a:active {
+    color: red;
+}
